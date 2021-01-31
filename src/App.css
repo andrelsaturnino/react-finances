@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #342828;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,11 +29,11 @@
 }
 
 .variacao-negativa {
-  color:red
+  border: 1px solid red;
 }
 
 .variacao-positiva {
-  color:green
+  border: 1px solid green;
 }
 
 
@@ -58,4 +58,23 @@
 
 .background {
   background-color: green;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.card-text {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.cotacao {
+  display: flex;
+  justify-content: space-around;
+  
 }
